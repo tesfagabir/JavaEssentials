@@ -1,0 +1,5 @@
+ackage interfaceDemo;
+
+public interface InterfaceDemo {
+
+}

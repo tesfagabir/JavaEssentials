@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package interfaceDemo;
+
+/**
+ * @author qiime
+ *
+ */
+public interface Bicycle {
+
+}

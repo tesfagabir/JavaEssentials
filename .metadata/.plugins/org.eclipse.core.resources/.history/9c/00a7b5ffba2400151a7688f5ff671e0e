@@ -1,0 +1,33 @@
+package geometry;
+
+import java.util.*;
+/**
+ * 
+ * @author Tesfagabir Meharizghi
+ *
+ */
+public abstract class Shape {
+	private String shapeName;
+	private double area;
+	
+	public Shape()
+	{
+		shapeName = "shape";
+		area = 0;
+	}
+	
+	public Shape(String shapeName)
+	{
+		this.shapeName = shapeName;
+		this.area = 0;
+	}
+	
+	public Shape(String shapeName, double area)
+	{
+		this.shapeName = shapeName;
+		this.area = area;
+	}
+	
+	public abstract double calculateArea();
+
+}
